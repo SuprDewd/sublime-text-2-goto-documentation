@@ -109,6 +109,15 @@ class GotoDocumentationCommand(sublime_plugin.TextCommand):
 
     def smarty_doc(self, keyword, scope):
         open_url('http://www.smarty.net/%s' % keyword)
+    
+    def cpp_doc(self, keyword, scope):
+        open_url("http://www.cplusplus.com/search.do?q=%s" % keyword)
+    
+    def cs_doc(self, keyword, scope):
+        open_url("http://social.msdn.microsoft.com/search/en-US?query=%s" % keyword)
+    
+    def vb_doc(self, keyword, scope):
+        open_url("http://social.msdn.microsoft.com/search/en-US?query=%s" % keyword)
 
     def run_command(self, command, callback=None, **kwargs):
         if not callback:
