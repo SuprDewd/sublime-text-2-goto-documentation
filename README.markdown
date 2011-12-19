@@ -11,6 +11,9 @@ A command to jump to documentation for the current word.
  * Go
  * Smarty
  * Ruby on Rails
+ * C++
+ * C#
+ * VB
 
 Submit a patch adding more and I'll include it.
 
